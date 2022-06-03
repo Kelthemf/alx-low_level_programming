@@ -7,7 +7,7 @@
  */
 
 int main(void)
-{  
+{
 	int a;
 	char b;
 	float c;
