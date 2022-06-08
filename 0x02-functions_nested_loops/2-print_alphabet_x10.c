@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 -printa alphabet 10x
- * Return: void;
+ * print_alphabet_x10 -prints the alphabet 10X
+ * Return: 0
  */
 
 void print_alphabet_x10(void)
 {
 	char ch;
-	int i;
+	int i=0;
 
-	ch = 'a';
 
-	for (i = 0; i < 10; i++)
+	while (i < 10)
 	{
-		while (ch <= 'z')
+		for (ch = 'a'; ch <= 'z'; ch++)
 		{
 			_putchar(ch);
-			ch++;
 		}	
+		i++;
 		_putchar('\n');
 	}
 }
